@@ -23,10 +23,7 @@
 }
 
 .fliparoo-front * {
-  -webkit-backface-visibility: visible;
-  -moz-backface-visibility: visible;
-  -ms-backface-visibility: visible;
-  backface-visibility: hidden;
+  -webkit-transform:translateZ(200px);
 }
 
 .fliparoo-back {
@@ -42,7 +39,7 @@
 }
 
 .fliparoo-animating {
-  z-index: 100;
+  /*z-index: 100;*/
 }
 
 /*
