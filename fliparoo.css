@@ -27,8 +27,8 @@
 }
 
 .fliparoo-front * {
-  z-index: 200;
-  /*-webkit-transform:translateZ(200px);*/
+  z-index: 300 !important;
+  -webkit-transform:translateZ(200px);
 }
 
 .fliparoo-back {
