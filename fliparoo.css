@@ -27,7 +27,8 @@
 }
 
 .fliparoo-front * {
-  -webkit-transform:translateZ(200px);
+  z-index: 200;
+  /*-webkit-transform:translateZ(200px);*/
 }
 
 .fliparoo-back {
@@ -39,7 +40,7 @@
 }
 
 .fliparoo-animating {
-  /*z-index: 100;*/
+  z-index: 100;
 }
 
 /*
