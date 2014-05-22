@@ -20,15 +20,25 @@
 .fliparoo-front {
   z-index: 2;
   position: relative;
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  -ms-backface-visibility: hidden;
+}
+
+.fliparoo-front * {
+  -webkit-backface-visibility: visible;
+  -moz-backface-visibility: visible;
+  -ms-backface-visibility: visible;
   backface-visibility: hidden;
 }
 
 .fliparoo-back {
   z-index: 0;
   position: absolute;
+}
+
+.fliparoo-back * {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .fliparoo-animating {
