@@ -4,10 +4,6 @@
   -webkit-transform-style: preserve-3d; /* Safari and Chrome */
   transform-style: preserve-3d;
   position: relative;
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  -ms-backface-visibility: hidden;
-  backface-visibility: hidden;
 }
 
 .fliparoo-display {
@@ -16,6 +12,10 @@
   top: 0;
   left: 0;
   box-sizing: border-box;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .fliparoo-display * {
